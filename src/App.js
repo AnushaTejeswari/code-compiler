@@ -67,7 +67,6 @@ function compile() {
 	}
 
 	// Post request to compile endpoint
-
 	Axios.post(`https://codecompilerserver.herokuapp.com/compile`, {
 	code: userCode,
 	language: userLang,
